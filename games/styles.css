@@ -1,0 +1,96 @@
+/* Retro Fancy Styles */
+body {
+    font-family: 'Press Start 2P', cursive;
+    background: linear-gradient(45deg, #ff00ff, #ffcc00, #00ffff, #6600ff);
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    color: white;
+}
+
+header {
+    background: #6600ff;
+    color: #ffcc00;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+#logo {
+    height: 60px;
+}
+
+h1 {
+    margin: 0;
+    text-shadow: 3px 3px 0px #ff00ff, -3px -3px 0px #00ffff;
+}
+
+a {
+    display: inline-block;
+    margin: 15px;
+    padding: 10px 15px;
+    text-decoration: none;
+    color: #ffcc00;
+    background: #ff00ff;
+    border: 3px solid #ffcc00;
+    border-radius: 10px;
+    font-size: 14px;
+    text-transform: uppercase;
+    transition: all 0.3s;
+}
+
+a:hover {
+    background: #00ffff;
+    color: #6600ff;
+    border-color: #ff00ff;
+}
+
+/* Form Styles */
+input, textarea, button {
+    display: block;
+    width: 80%;
+    max-width: 400px;
+    margin: 10px auto;
+    padding: 12px;
+    border-radius: 10px;
+    border: 3px solid #ffcc00;
+    background: #6600ff;
+    color: #ffcc00;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-family: 'Press Start 2P', cursive;
+}
+
+button {
+    background: #ff00ff;
+    color: #ffcc00;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+button:hover {
+    background: #00ffff;
+    color: #6600ff;
+    border-color: #ff00ff;
+}
+
+#feed {
+    width: 80%;
+    max-width: 600px;
+    margin: 20px auto;
+    background: rgba(255, 0, 255, 0.9);
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3);
+    border: 4px solid #ffcc00;
+}
+
+/* Make images/videos fit within their div */
+#feed img, #feed video {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
